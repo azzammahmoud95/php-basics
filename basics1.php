@@ -1,9 +1,10 @@
 
 <?php 
-
-function calculateArea(int $height, int $width){
-    $area  = $height * $width;
-    echo "The Area is {$area} if height = {$height} and width = {$width}"; 
+$birth_year = 2010;
+$current_year = 2023;
+if(($current_year - $birth_year) < 18 ){
+    echo "You still a kid, go and play GTA";
+}else{
+    echo "You can drive";
 }
-calculateArea(3,3)
  ?>
