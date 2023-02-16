@@ -1,10 +1,5 @@
 
 <?php 
-$birth_year = 2010;
-$current_year = 2023;
-if(($current_year - $birth_year) < 18 ){
-    echo "You still a kid, go and play GTA";
-}else{
-    echo "You can drive";
-}
+$grocery = array("Eggs", "Milk" , "Cheese" , "Water Pack", "Tissues", "Watermelon");
+echo "Hello Sir, do you have {$grocery[0]}, {$grocery[1]}, and {$grocery[2]}? Also if you sell fruits can I find a {$grocery[5]}?";
  ?>
